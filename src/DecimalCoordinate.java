@@ -1,8 +1,3 @@
-/**
- * Class which contains the Latitude and Longitude for a DecimalCoordinate object.
- * For simplicity, we will not be including the cardinal direction associated
- * with the latitude and longitude.
- */
 public class DecimalCoordinate {
     double latitude;
     double longitude;
