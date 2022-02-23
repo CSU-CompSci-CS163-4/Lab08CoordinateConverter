@@ -2,7 +2,6 @@ public class ConverterTests {
     //This tests in bounds DMSCoord
     public static boolean testDMSCoordConstruction1() {
         DMSCoordinate testDMS = new DMSCoordinate("39°58'12\" 25°29'22\"");
-        //Each element of testDMS should be set to 0, since both Lat and Long are out of bounds.
         boolean test1 = false;
         boolean test2 = false;
 
