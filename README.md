@@ -12,6 +12,8 @@ To begin with this application I would check out of the **DecimalCoordinate**, *
 ## Step 2: Writing your code
 The javadoc will include more detailed instructions on how each method and class is composed, the code portions that need your attention are marked with a `//TODO Student`. All problems are located in the `DecimalCoordinate`, `DMSCoordinate`, `DecimalConverter`, and the `DMSConverter` classes. Most of the work you produce for this lab will be within the **Converter** classes where you have to follow and translate the formula for each conversion. The formulas and converters for Decimal to DMS and vice-versa can be found here: [RapidTables.com](https://www.rapidtables.com/convert/number/degrees-minutes-seconds-to-degrees.html). Two very useful visualizations and examples that I found online will be included as images at the bottom of this document.
 
+Remember, try to think of the simple path. For example, in the "convert" methods, you are really just building a new object using information from the other object. As always if you find yourself stuck, it is best to walk away, come back, and solutions often present themselves. Also, try to talk out and articulate errors, that helps a lot with debugging. 
+
 ## Step 3: Testing!
 Now that you have progressed through each method requiring your assistance, it would be wise to run the included tester file once more and verfiy each test is returning **true**. After each test returns true, try running the `ConverterMain` and seeing how the app works and verifying it actually does work!
 
